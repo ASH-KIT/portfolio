@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://www.shauryasrc.com/sitemap.xml
+Sitemap: https://www.ASH-PORTFOLIO.com/sitemap.xml
