@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 150px;
-  border: 8px solid #2a8588;
+  border: 8px solid #6b7272;
 }
 
 #header .profile h1 {
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: rgb(70, 163, 140);
+  color: #6b7272;
   text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #4dc9b8b2;
+  background: #6b7272;
   color: #fff;
   text-decoration: none;
 }
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items:flex-end;
-  color: #31b1aa;
+  color: #6b7272;
   padding: 10px 15px;
   margin-bottom: 9px;
   transition: 0.3s;
@@ -163,16 +163,16 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i {
   font-size: 15px;
   padding-right: 10px;
-  color: #2f9797;
+  color: #6b7272;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #a17878;
+  color: #3fb8ae;
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: #a17878;
+  color: #2ca1a5;
 }
 
 /* Mobile Navigation */
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(144, 161, 163, 0.192);
+  background: rgba(144, 161, 163, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -240,8 +240,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: rgb(39, 189, 189);
-  background: rgba(5, 13, 24, 0);
+  color: rgb(59, 148, 148);
+  background: rgba(0, 0, 0, 0.562);
 }
 
 #hero p {
@@ -365,19 +365,19 @@ section {
 
 
 
-.facts .count-box {
+.about .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.facts .count-box i {
+.about .count-box i {
   display: block;
   font-size: 44px;
   color: #dd14cc80;
   float: left;
 }
 
-.facts .count-box span {
+.about .count-box span {
   font-size: 48px;
   line-height: 40px;
   display: block;
@@ -386,7 +386,7 @@ section {
   margin-left: 60px;
 }
 
-.facts .count-box p {
+.about .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
@@ -394,7 +394,7 @@ section {
   color: #122f57;
 }
 
-.facts .count-box a {
+.about .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
@@ -404,20 +404,20 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.facts .count-box a:hover {
+.about .count-box a:hover {
   color: #1f5297;
 }
 
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+.about .progress {
   height: 50px;
   display: block;
   background: none;
 }
 
-.skills .progress .skill {
+.about .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -427,16 +427,16 @@ section {
   color: #f3f3f3;
 }
 
-.skills .progress .skill .val {
+.about .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
-.skills .progress-bar-wrap {
+.about .progress-bar-wrap {
   background: #dce8f8;
 }
 
-.skills .progress-bar {
+.about .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
